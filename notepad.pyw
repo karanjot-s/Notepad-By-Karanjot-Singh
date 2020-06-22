@@ -64,12 +64,12 @@ def about():
 def helpMe():
     openWeb = msg.askokcancel(title="Help", message="Open Help in web?")
     if openWeb:
-        webbrowser.open("www.google.com")
+        webbrowser.open("https://github.com/karanjot-s/Notepad-By-Karanjot-Singh)
 
 def feedback():
     openWeb = msg.askokcancel(title="Feedback", message="Do you want to give feedback?")
     if openWeb:
-        webbrowser.open("www.google.com")
+        webbrowser.open("https://forms.gle/fdPyvf7EFvCGYR3h7")
 
 
 
